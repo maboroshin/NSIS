@@ -113,7 +113,7 @@ $(^NameDA) をアンインストールするフォルダを選択:
 # ^SpaceAvailable
 空き容量: 
 # ^SpaceRequired
-必要用量: 
+必要容量: 
 # ^UninstallingText
 $(^NameDA) を以下のフォルダからアンインストールされます。 $_CLICK
 # ^UninstallingSubText
