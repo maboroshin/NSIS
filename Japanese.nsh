@@ -1,5 +1,5 @@
 ﻿;Language: Japanese (1041)
-; 1st translation by Dnanako Dnanako (2002, r1537), 2nd update by Takahiro Yoshimura (2003, r2489) <takahiro_y@monolithworks.co.jp>, 3rd update by maboroshin (July 2020)
+; 1st translation by Dnanako Dnanako (2002, r1537), 2nd update by Takahiro Yoshimura (2003, r2489) <takahiro_y@monolithworks.co.jp>, 3rd update by maboroshin (2020-21)
 
 !insertmacro LANGFILE "Japanese" = "日本語" "Nihongo"
 
@@ -15,16 +15,16 @@
 
 !ifdef MUI_LICENSEPAGE
   ${LangFileString} MUI_TEXT_LICENSE_TITLE "使用許諾契約"
-  ${LangFileString} MUI_TEXT_LICENSE_SUBTITLE "$(^NameDA) をインストールする前に、ライセンス条件を確認してください。"
-  ${LangFileString} MUI_INNERTEXT_LICENSE_BOTTOM "契約のすべての条件に同意するなら、「同意する」 を選択しインストールを続行します。$(^NameDA) をインストールするには、契約に同意する必要があります。"
+  ${LangFileString} MUI_TEXT_LICENSE_SUBTITLE "$(^NameDA) のインストール前に、ライセンス条件を確認してください。"
+  ${LangFileString} MUI_INNERTEXT_LICENSE_BOTTOM "契約のすべての条件に同意するなら、「同意する」を選択しインストールを続行します。$(^NameDA) をインストールするには、契約に同意する必要があります。"
   ${LangFileString} MUI_INNERTEXT_LICENSE_BOTTOM_CHECKBOX "契約のすべての条件に同意するなら、下のチェックボックスをクリックしてください。$(^NameDA) をインストールするには、契約に同意する必要があります。 $_CLICK"
   ${LangFileString} MUI_INNERTEXT_LICENSE_BOTTOM_RADIOBUTTONS "契約のすべての条件に同意するなら、下に表示されているオプションのうち、最初のものを選択してください。$(^NameDA) をインストールするには、契約に同意する必要があります。 $_CLICK"
 !endif
 
 !ifdef MUI_UNLICENSEPAGE
   ${LangFileString} MUI_UNTEXT_LICENSE_TITLE "使用許諾契約"
-  ${LangFileString} MUI_UNTEXT_LICENSE_SUBTITLE "$(^NameDA) をアンインストールする前に、ライセンス条件を確認してください。"
-  ${LangFileString} MUI_UNINNERTEXT_LICENSE_BOTTOM "契約のすべての条件に同意するなら、「同意する」 を選択しアンインストールを続行します。$(^NameDA) をアンインストールするには、契約に同意する必要があります。"
+  ${LangFileString} MUI_UNTEXT_LICENSE_SUBTITLE "$(^NameDA) のアンインストール前に、ライセンス条件を確認してください。"
+  ${LangFileString} MUI_UNINNERTEXT_LICENSE_BOTTOM "契約のすべての条件に同意するなら、「同意する」を選択しアンインストールを続行します。$(^NameDA) をアンインストールするには、契約に同意する必要があります。"
   ${LangFileString} MUI_UNINNERTEXT_LICENSE_BOTTOM_CHECKBOX "契約のすべての条件に同意するなら、下のチェックボックスをクリックしてください。$(^NameDA) をアンインストールするには、契約に同意する必要があります。 $_CLICK"
   ${LangFileString} MUI_UNINNERTEXT_LICENSE_BOTTOM_RADIOBUTTONS "契約のすべての条件に同意するなら、下の選択肢から最初のものを選択してください。$(^NameDA) をアンインストールするには、契約に同意する必要があります。 $_CLICK"
 !endif
@@ -35,12 +35,12 @@
 
 !ifdef MUI_COMPONENTSPAGE
   ${LangFileString} MUI_TEXT_COMPONENTS_TITLE "構成要素の選択"
-  ${LangFileString} MUI_TEXT_COMPONENTS_SUBTITLE "インストールしたい $(^NameDA) の機能を選択してください。"
+  ${LangFileString} MUI_TEXT_COMPONENTS_SUBTITLE "インストールしたい $(^NameDA) の機能を選択。"
 !endif
 
 !ifdef MUI_UNCOMPONENTSPAGE
   ${LangFileString} MUI_UNTEXT_COMPONENTS_TITLE "構成要素の選択"
-  ${LangFileString} MUI_UNTEXT_COMPONENTS_SUBTITLE "アンインストールしたい $(^NameDA) の機能を選択してください。"
+  ${LangFileString} MUI_UNTEXT_COMPONENTS_SUBTITLE "アンインストールしたい $(^NameDA) の機能を選択。"
 !endif
 
 !ifdef MUI_COMPONENTSPAGE | MUI_UNCOMPONENTSPAGE
@@ -54,28 +54,28 @@
 
 !ifdef MUI_DIRECTORYPAGE
   ${LangFileString} MUI_TEXT_DIRECTORY_TITLE "インストール先の選択"
-  ${LangFileString} MUI_TEXT_DIRECTORY_SUBTITLE "$(^NameDA) をインストールするフォルダを選択してください。"
+  ${LangFileString} MUI_TEXT_DIRECTORY_SUBTITLE "$(^NameDA) をインストールするフォルダを選択。"
 !endif
 
 !ifdef MUI_UNDIRECTORYPAGE
   ${LangFileString} MUI_UNTEXT_DIRECTORY_TITLE "アンインストール元の選択"
-  ${LangFileString} MUI_UNTEXT_DIRECTORY_SUBTITLE "$(^NameDA) をアンインストールするフォルダを選択してください。"
+  ${LangFileString} MUI_UNTEXT_DIRECTORY_SUBTITLE "$(^NameDA) をアンインストールするフォルダを選択。"
 !endif
 
 !ifdef MUI_INSTFILESPAGE
   ${LangFileString} MUI_TEXT_INSTALLING_TITLE "インストール"
-  ${LangFileString} MUI_TEXT_INSTALLING_SUBTITLE "$(^NameDA) をインストール中です。お待ちください。"
+  ${LangFileString} MUI_TEXT_INSTALLING_SUBTITLE "$(^NameDA) インストール中。お待ちください。"
   ${LangFileString} MUI_TEXT_FINISH_TITLE "インストールの完了"
-  ${LangFileString} MUI_TEXT_FINISH_SUBTITLE "インストールに成功しました。"
+  ${LangFileString} MUI_TEXT_FINISH_SUBTITLE "インストールに成功。"
   ${LangFileString} MUI_TEXT_ABORT_TITLE "インストールの中止"
   ${LangFileString} MUI_TEXT_ABORT_SUBTITLE "セットアップは正常に完了しませんでした。"
 !endif
 
 !ifdef MUI_UNINSTFILESPAGE
   ${LangFileString} MUI_UNTEXT_UNINSTALLING_TITLE "アンインストール"
-  ${LangFileString} MUI_UNTEXT_UNINSTALLING_SUBTITLE "$(^NameDA) をアンインストール中です。お待ちください。"
+  ${LangFileString} MUI_UNTEXT_UNINSTALLING_SUBTITLE "$(^NameDA) アンインストール中。お待ちください。"
   ${LangFileString} MUI_UNTEXT_FINISH_TITLE "アンインストールの完了"
-  ${LangFileString} MUI_UNTEXT_FINISH_SUBTITLE "アンインストールに成功しました。"
+  ${LangFileString} MUI_UNTEXT_FINISH_SUBTITLE "アンインストールに成功。"
   ${LangFileString} MUI_UNTEXT_ABORT_TITLE "アンインストールの中止"
   ${LangFileString} MUI_UNTEXT_ABORT_SUBTITLE "アンインストールは正常に完了しませんでした。"
 !endif
@@ -102,14 +102,14 @@
 
 !ifdef MUI_STARTMENUPAGE
   ${LangFileString} MUI_TEXT_STARTMENU_TITLE "スタートメニューのフォルダの選択"
-  ${LangFileString} MUI_TEXT_STARTMENU_SUBTITLE "$(^NameDA) のショートカットを作成するスタートメニューのフォルダを選択してください。"
+  ${LangFileString} MUI_TEXT_STARTMENU_SUBTITLE "$(^NameDA) のショートカットを作成するスタートメニューのフォルダを選択。"
   ${LangFileString} MUI_INNERTEXT_STARTMENU_TOP "このプログラムのショートカットを作成したいスタートメニューのフォルダを選択してください。また、新規フォルダの名前を入力することもできます。"
   ${LangFileString} MUI_INNERTEXT_STARTMENU_CHECKBOX "ショートカットを作成しない"
 !endif
 
 !ifdef MUI_UNCONFIRMPAGE
   ${LangFileString} MUI_UNTEXT_CONFIRM_TITLE "$(^NameDA) のアンインストール"
-  ${LangFileString} MUI_UNTEXT_CONFIRM_SUBTITLE "$(^NameDA) をこのコンピュータから削除します。"
+  ${LangFileString} MUI_UNTEXT_CONFIRM_SUBTITLE "$(^NameDA) をこのコンピュータから削除。"
 !endif
 
 !ifdef MUI_ABORTWARNING
@@ -122,7 +122,7 @@
 
 !ifdef MULTIUSER_INSTALLMODEPAGE
   ${LangFileString} MULTIUSER_TEXT_INSTALLMODE_TITLE "ユーザーの選択"
-  ${LangFileString} MULTIUSER_TEXT_INSTALLMODE_SUBTITLE "どのユーザーのために $(^NameDA) をインストールするか選択してください。"
+  ${LangFileString} MULTIUSER_TEXT_INSTALLMODE_SUBTITLE "どのユーザーのために $(^NameDA) をインストールするか選択。"
   ${LangFileString} MULTIUSER_INNERTEXT_INSTALLMODE_TOP "$(^NameDA) を自分自身のためだけにインストールするのか、このコンピューターのすべてのユーザーにインストールするのか選択してください。$(^ClickNext)"
   ${LangFileString} MULTIUSER_INNERTEXT_INSTALLMODE_ALLUSERS "このコンピューターを使用する全員にインストール"
   ${LangFileString} MULTIUSER_INNERTEXT_INSTALLMODE_CURRENTUSER "自分にのみインストール"

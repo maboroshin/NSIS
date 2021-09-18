@@ -9,7 +9,7 @@ NLF v6
 932
 # RTL - anything else than RTL means LTR
 -
-# Translation by Dnanako(2002), Updated by Takahiro Yoshimura(2003) <takahiro_y@monolithworks.co.jp>, maboroshin(2020)
+# Translation by Dnanako(2002), Updated by Takahiro Yoshimura(2003) <takahiro_y@monolithworks.co.jp>, maboroshin(2020-21)
 # ^Branding
 Nullsoft Install System %s
 # ^SetupCaption
@@ -99,13 +99,13 @@ $(^NameDA) をアンインストールする前に、使用許諾契約を確認
 # ^UnComponentsSubText2
 またはアンインストールしたい構成要素を選択:
 # ^DirText
-$(^NameDA) を以下のフォルダにインストールします。別のフォルダにインストールするには、「参照」 を押しフォルダを選択してください。 $_CLICK
+$(^NameDA) を以下のフォルダにインストールします。別のフォルダにインストールするには、「参照」を押しフォルダを選択してください。 $_CLICK
 # ^DirSubText
 インストール先のフォルダ
 # ^DirBrowseText
 $(^NameDA) をインストールするフォルダを選択:
 # ^UnDirText
-$(^NameDA) を以下のフォルダからアンインストールします。別のフォルダからアンインストールするには、「参照」 を押しフォルダを選択してください。 $_CLICK
+$(^NameDA) を以下のフォルダからアンインストールします。別のフォルダからアンインストールするには、「参照」を押しフォルダを選択してください。 $_CLICK
 # ^UnDirSubText
 ""
 # ^UnDirBrowseText
